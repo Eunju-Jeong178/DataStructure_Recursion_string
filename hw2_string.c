@@ -1,6 +1,4 @@
-// ÀÚ·á±¸Á¶(003ºĞ¹İ)_°úÁ¦2_±â°è½Ã½ºÅÛÇĞºÎ_1816862_Á¤ÀºÁÖ
-
-//#define _CRT_SECURE_NO_WARNINGS // scanf º¸¾È °æ°í·Î ÀÎÇÑ ÄÄÆÄÀÏ ¿¡·¯ ¹æÁö
+//#define _CRT_SECURE_NO_WARNINGS // scanf ë³´ì•ˆ ê²½ê³ ë¡œ ì¸í•œ ì»´íŒŒì¼ ì—ëŸ¬ ë°©ì§€
 //#include <stdio.h>
 ////#include <string.h>
 //#define MAX 10
@@ -11,12 +9,12 @@
 //	char string[MAX];
 //	int n;
 //
-//	printf("¼ø¿­ ¹®ÀÚ µ¥ÀÌÅÍ °³¼ö ÀÔ·Â:");
+//	printf("ìˆœì—´ ë¬¸ì ë°ì´í„° ê°œìˆ˜ ì…ë ¥:");
 //	scanf_s("%d", &n);
 //
 //	scanf("%s", string);
 //	
-//	printf("\n¼ø¿­°á°ú Ãâ·Â\n");
+//	printf("\nìˆœì—´ê²°ê³¼ ì¶œë ¥\n");
 //	perm(string, 0, n - 1);
 //}
 //
@@ -44,7 +42,7 @@
 //	*b = temp;
 //}
 
-#define _CRT_SECURE_NO_WARNINGS // scanf º¸¾È °æ°í·Î ÀÎÇÑ ÄÄÆÄÀÏ ¿¡·¯ ¹æÁö
+#define _CRT_SECURE_NO_WARNINGS // scanf ë³´ì•ˆ ê²½ê³ ë¡œ ì¸í•œ ì»´íŒŒì¼ ì—ëŸ¬ ë°©ì§€
 #include <stdio.h>
 //#include <string.h>
 #define MAX 10
@@ -88,8 +86,8 @@ void swap(char* a, char* b)
 
 void inputData(char str[], int *n)
 {
-	printf("¼ø¿­ ¹®ÀÚ µ¥ÀÌÅÍ °³¼ö ÀÔ·Â:");
+	printf("ìˆœì—´ ë¬¸ì ë°ì´í„° ê°œìˆ˜ ì…ë ¥:");
 	scanf("%d", n);
 	scanf("%s", str);
-	printf("\n¼ø¿­°á°ú Ãâ·Â\n");
+	printf("\nìˆœì—´ê²°ê³¼ ì¶œë ¥\n");
 }
